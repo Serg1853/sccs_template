@@ -1,3 +1,26 @@
+.title {
+  font-size: 16px;
+}
+
+.subtitle {
+  font-size: 10px;
+}
+
+.small-btn {
+  font-size: 10px;
+  color: black;
+  background-color: ligthblue;
+}
+
+body {
+  background-color: lightblue;
+}
+
+p {
+  color: white;
+  background-color: teal;
+}
+
 /*== END==*/
 body {
   min-width: 100vw;
