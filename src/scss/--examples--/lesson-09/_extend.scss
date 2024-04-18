@@ -5,6 +5,7 @@
 // Approach 1
 // .notification {
 //   display: flex;
+//  justify-content: space-between;
 //   align-items: center;
 //   gap: 20px;
 // margin: 0 auto;
@@ -36,6 +37,7 @@
 // Approach 2
 // .notification {
 //   display: flex;
+//  justify-content: space-between;
 //   align-items: center;
 //   gap: 20px;
 // margin: 0 auto;
@@ -74,6 +76,7 @@
 // Approach 3
 %notification {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 margin: 0 auto;
