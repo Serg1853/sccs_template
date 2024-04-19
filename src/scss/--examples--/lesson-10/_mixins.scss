@@ -1,0 +1,10 @@
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+.avatar {
+  @include size(150px);
+
+  border-radius: 50%;
+}
