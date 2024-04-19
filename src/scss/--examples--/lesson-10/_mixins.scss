@@ -1,10 +1,33 @@
-@mixin size($width, $height: $width) {
-  width: $width;
-  height: $height;
+// @mixin size($width, $height) {
+//   width: $width;
+//   height: $height;
+// }
+
+// .avatar {
+//   @include size(150px, 200px);
+
+//   border-radius: 50%;
+// }
+
+// Arguments
+// @mixin position-center {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+// .decoration {
+//   @include position-center();
+// }
+
+@mixin position($position-type,$position-x,$position-y,$offset-x,$offset-y) {
+  position: a$position-type;
+  top: $position-x;
+  left: $position-y;
+  transform: translate($offset-x, $offset-y);
 }
 
-.avatar {
-  @include size(150px);
-
-  border-radius: 50%;
+.decoration {
+  @include position(absolute,50%,50%,-50%,-50%);
 }
