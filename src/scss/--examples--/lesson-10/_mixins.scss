@@ -21,13 +21,20 @@
 //   @include position-center();
 // }
 
-@mixin position($position-type,$position-x,$position-y,$offset-x,$offset-y) {
+@mixin position(
+  $layer-index,
+  $position-type:absolute,
+  $position-x:50%,
+  $position-y:$position-x,
+  $offset-x:$position-x,
+  $offset-y:$position-x
+) {
   position: a$position-type;
   top: $position-x;
   left: $position-y;
-  transform: translate($offset-x, $offset-y);
+  transform: translate($offset-x*-1), ($offset-y*-1);
 }
 
 .decoration {
-  @include position(absolute,50%,50%,-50%,-50%);
+  @include position(100);
 }
