@@ -1,9 +1,14 @@
-.decoration {
-  position: a absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%), -50%;
-     -moz-transform: translate(-50%), -50%;
-      -ms-transform: translate(-50%), -50%;
-          transform: translate(-50%), -50%;
+.btn-success {
+  border: 2px solid lightgreen;
+  color: lightgreen;
+}
+
+.btn-error {
+  border: 2px solid tomato;
+  color: tomato;
+}
+
+.btn-info {
+  border: 2px solid lightblue;
+  color: lightblue;
 }
