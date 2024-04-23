@@ -1,18 +1,15 @@
-.square-avatar {
-  width: 100px;
-  height: 100px;
+.fw-400 {
+  font-weight: 400;
 }
 
-.circle-avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+.fw-500 {
+  font-weight: 500;
 }
 
-.title {
-  font-size: 20px;
+.fw-600 {
   font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: 0.025em;
-  text-align: center;
+}
+
+.fw-700 {
+  font-weight: 700;
 }
