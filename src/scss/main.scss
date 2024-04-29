@@ -34,5 +34,8 @@
 // @use "--examples--/lesson-14/colors";
 // @use "--examples--/lesson-14/map";
 
-@use "utils/variables";
-@use "utils/reset";
+@use "utils";
+
+:root {
+  font-family: sans-serif;
+}
