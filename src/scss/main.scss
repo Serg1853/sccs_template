@@ -5,9 +5,7 @@
 // @use "--examples--/lesson-05/button";
 // @use "--examples--/lesson-05/scopes";
 
-
 // @use "--examples--/lesson-05/base";
-
 
 // @use "--examples--/lesson-06/ampersand";
 // @use "--examples--/lesson-06/combinators";
@@ -21,7 +19,6 @@
 // @use "--examples--/lesson-09/extend";
 // @use "--examples--/lesson-10/mixins";
 
-
 // @use "--examples--/lesson-11/each";
 // @use "--examples--/lesson-11/for";
 // @use "--examples--/lesson-11/if";
@@ -33,6 +30,9 @@
 
 // @use "--examples--/lesson-13/list";
 
-@use "--examples--/lesson-14/alerts";
-@use "--examples--/lesson-14/colors";
-@use "--examples--/lesson-14/map";
+// @use "--examples--/lesson-14/alerts";
+// @use "--examples--/lesson-14/colors";
+// @use "--examples--/lesson-14/map";
+
+@use "utils/reset";
+@use "utils/variables";
