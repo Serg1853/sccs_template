@@ -1,14 +1,8 @@
 // _mixins.scss
 @use "sass:map";
-@use "utils/_variables.scss" as v;
+@use "utils" as v;
 
-$breakpoints: (
-  "sm": $v.sm,
-  "md": $v.md,
-  "lg": $v.lg,
-  "xl": $v.xl,
-  "xxl": $v.xxl,
-) !default;
+$breakpoints: ("sm": $v.sm,"md": $v.md,"lg": $v.lg,"xl": $v.xl, "xxl": $v.xxl,) !default;
 
 @mixin mq($bp: sm, $type: min, $is-retina: false) {
   @if map.has-key($breakpoints, $bp) {

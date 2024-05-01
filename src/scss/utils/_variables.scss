@@ -43,6 +43,12 @@
 // $black: #000;
 
 
+// Брейкпоінти
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
 @use "utils/_mixins.scss" as m;
 
 .poster {
@@ -56,9 +62,3 @@
     display: flex;
   }
 }
-// Брейкпоінти
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
-$xxl: 1400px;
